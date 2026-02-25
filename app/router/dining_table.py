@@ -3,7 +3,7 @@ from sqlalchemy import select
 
 from app.models import DiningTable
 from app.database import db_dep
-from app.schemas import TableRead
+from app.schemas.schemas import TableRead
 
 router = APIRouter(prefix="/tables", tags=["Tables"])
 

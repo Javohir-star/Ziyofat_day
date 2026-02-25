@@ -1247,6 +1247,7 @@ dependencies = [
     { name = "passlib" },
     { name = "psycopg2-binary" },
     { name = "pydantic-settings" },
+    { name = "python-dotenv" },
     { name = "ruff" },
     { name = "sqlalchemy" },
 ]
@@ -1258,6 +1259,7 @@ requires-dist = [
     { name = "passlib", specifier = ">=1.7.4" },
     { name = "psycopg2-binary", specifier = ">=2.9.11" },
     { name = "pydantic-settings", specifier = ">=2.13.1" },
+    { name = "python-dotenv", specifier = ">=1.2.1" },
     { name = "ruff", specifier = ">=0.15.2" },
     { name = "sqlalchemy", specifier = ">=2.0.46" },
 ]
